@@ -1,0 +1,75 @@
+.chats-page {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 50vh;
+    gap: 50px;
+}
+
+.chat-list {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    gap: 10px;
+}
+
+.chat-preview {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    background-color: #333333;
+    padding: 10px;
+    color: lightgray;
+    align-items: left;
+    justify-items: left;
+}
+
+.chat-preview:hover {
+    background-color: #444444;
+    color: white;
+}
+
+.chat-detail, .chat-name {
+    padding: 0 5px;
+}
+
+.chat-detail {
+    font-size: small;
+}
+
+
+.chat-name {
+    font-weight: bolder;
+}
+
+.message-list {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    gap: 10px;
+}
+
+.message-card {
+    text-align: left;
+    border: 2px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 10 px;
+}
+
+.message-card-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+
+.message-card-sender {
+    font-weight: bolder;
+}
+
+.message-card-time {
+    color: gray;
+    font-size: small;
+}
+
