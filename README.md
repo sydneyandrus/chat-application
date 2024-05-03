@@ -1,4 +1,4 @@
-# Pony Express - a chat application
+# chat application - a chat application
 
 ## Backend
 

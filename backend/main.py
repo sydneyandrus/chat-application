@@ -17,7 +17,7 @@ async def lifespan(app: FastAPI):
   yield
 
 app = FastAPI(
-  title="pony express API",
+  title="chat application API",
   description="API for managing chats between users.",
   version="0.1.0",
   lifespan=lifespan,
@@ -69,6 +69,6 @@ def handle_duplicate_entity(
 
 @app.get("/", include_in_schema=False)
 def root(): 
-	return {"message": "welcome to pony express"}
+	return {"message": "welcome to chat application"}
 
 lambda_handler = Mangum(app)

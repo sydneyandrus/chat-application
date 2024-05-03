@@ -31,7 +31,7 @@ function Home() {
   if (! isLoggedIn) {
     return (
       <div className="justify-self-center m-16">
-        <p>pony express is a chat application</p>
+        <p>chat application is a chat application</p>
         <Link className="text-violet-400" to="/login">get started</Link>
       </div>
     )

@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "pony-express-sydneyandrus"
+name = "chat-application"
 version = "0.1.0"
 description = ""
-authors = ["your_name <your@email>"]
+authors = ["Sydney Andrus <sydney.andrus.or@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]

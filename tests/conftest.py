@@ -8,7 +8,7 @@ def test_root():
   test_client = TestClient(app)
   response = test_client.get("/")
   assert response.status_code == 200
-  assert response.json() == {'message': 'welcome to pony express'}
+  assert response.json() == {'message': 'welcome to chat application'}
 
 def test_get_all_users():
   client = TestClient(app)
