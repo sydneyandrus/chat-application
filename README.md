@@ -1,5 +1,7 @@
 # chat application - a chat application
 
+This application is no longer hosted anywhere online. It was written for a Web Development II class. Our stack: fastapi, sqlite, react, tailwind.
+
 ## Backend
 
 The backend of the application is written in python using the
